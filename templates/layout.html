@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Working Title</title>
+    <link rel="stylesheet" href="static/styles.css" type="text/css">
+  </head>
+
+  <body>
+    <div class="header banner"> 
+      <div class="logo"></div>
+      <ul class="navigation">
+	<li><a href="/">About Us</a></li>
+	<li><a href="team"/>Our Team</a></li>
+        <li><a href="projects"/>Our Projects</a></li>
+        <li><a href="colors"/>Colors</a></li>
+      </ul>
+    </div>
+
+  <div class="body">
+
+    <div class="content">
+    {% block content %}
+    {% endblock %}
+    </div>
+
+  </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,84 @@
+body {
+    background: lavenderblush;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+div.header {
+    background: url(dots.svg) repeat-x center top;
+    height: 285px;
+}
+
+div.header ul.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1;
+    background: magenta;
+}
+
+div.header ul.navigation li {
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px!important;
+    height: 28px!important;
+}
+
+div.header ul.navigation li a {
+    display: block;
+    border: 0 solid transparent;
+    border-left-width: 14px;
+    border-right-width: 14px;
+    line-height: 28px!important;
+    height: 28px!important;
+    color: lavenderblush;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+
+
+div.banner {
+    height: 250px;
+}
+
+div.banner div.logo {
+    background: url(raspberry.svg) no-repeat;
+    height: 220px;
+    margin: auto;
+    width: 600px;
+    height: 190px;
+}
+
+
+h1, h2, h3, h4, h5 {
+    color: purple;
+    padding: 3px 10px 0 10px;
+    border-bottom: 1px dotted magenta;
+    text-shadow: 2px 2px 1px magenta;
+    margin: 25px -20px 20px -20px;
+
+}
+
+
+h1 {
+    margin-top: 0;
+}
+
+div.body {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 700px;
+    background: lavenderblush;
+}
+
+
