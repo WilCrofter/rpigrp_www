@@ -8,6 +8,13 @@
   </head>
 
   <body>
+
+    <!--This code specifies the navigation menu and banner which stretch
+      across the very top of each page. The look and feel of these items
+      is determined by the stylesheet styles.css, and images in the static
+      directory. The content of the navigation menu, "About Us" and such,
+      is specified below by the list items <li> and links <a href="stuff">
+      where "stuff" refers to a route defined in app.py. -->
     <div class="header banner"> 
       <div class="logo"></div>
       <ul class="navigation">
@@ -17,14 +24,16 @@
         <li><a href="colors"/>Colors</a></li>
       </ul>
     </div>
-
+  
+  <!--An empty block is wrapped in two "div"s of class "body" and "content"
+    respectively. (The names are arbitrary.) The look and feel of these
+    div's is specified in the style sheet styles.css.-->
   <div class="body">
-
     <div class="content">
     {% block content %}
+    <!--An empty block named "content" to be filled by individual pages -->
     {% endblock %}
     </div>
-
   </div>
 
   </body>

@@ -1,3 +1,7 @@
+
+/* Some general styles for the body of a page,
+   background color, font size,...
+*/
 body {
     background: lavenderblush;
     font-size: 18px;
@@ -6,12 +10,24 @@ body {
     line-height: 1.5;
 }
 
-
+/* Begin specification of the banner and navigation
+   menu to appear at the top of every page.
+   Use the image dots.svg as background, repeating
+   it if necessary to stretch across the page.
+   
+   To change the background, just create a different
+   image in Inkscape and substitute its name for
+   dots.svg below. (The new image must be placed in
+   the static directory.)
+*/
 div.header {
     background: url(dots.svg) repeat-x center top;
     height: 285px;
 }
 
+/* Position the navigation menu at the top left corner
+   and specify its background color.
+*/
 div.header ul.navigation {
     position: absolute;
     top: 0;
@@ -23,6 +39,11 @@ div.header ul.navigation {
     background: magenta;
 }
 
+/* The next two blocks specify the position of the 
+   list of pages which appear in the navigation menu.
+   There is a bit of trickery here. Don't mess with
+   the 28px!important; lines.
+*/
 div.header ul.navigation li {
     float: left;
     padding: 0;
@@ -45,8 +66,13 @@ div.header ul.navigation li a {
     letter-spacing: 0.5px;
 }
 
-
-
+/* The next two blocks specify the positon of the
+   logo and the image to use for it. To change
+   the logo, just create a new one in Inkscape
+   and substitute its name for raspberry.svg
+   below. (The new image must be in the static
+   directory.)
+*/
 div.banner {
     height: 250px;
 }
@@ -59,6 +85,12 @@ div.banner div.logo {
     height: 190px;
 }
 
+
+/* A few general purpose blocks which can be
+   changed any way you like. Experimenting
+   with the text-shadow and its margin can
+   become a huge time suck if you are bored.
+*/
 
 h1, h2, h3, h4, h5 {
     color: purple;
