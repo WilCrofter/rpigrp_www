@@ -18,6 +18,7 @@ The website's look and feel are specified by `template/layout.html` and the styl
   <li>This website</li>
   <li>Bouncing Balls</li>
   <li>Minecraft Photobooth</li>
+</ul>
 
 {% endblock %}
 ```
