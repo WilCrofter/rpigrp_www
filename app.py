@@ -27,17 +27,37 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/team')
-def team():
-    return render_template('team.html')
-
 @app.route('/projects')
 def projects():
     return render_template('projects.html')
 
-@app.route('/colors')
-def colors():
-    return render_template('colors.html')
+@app.route('/threedprint')
+def threedprint():
+    return render_template('threedprint.html')
+
+@app.route('/people')
+def people():
+    return render_template('people.html')
+
+@app.route('/cricut')
+def cricut():
+    return render_template('cricut.html')
+
+@app.route('/gallery')
+def gallery():
+    return render_template('gallery.html')
+
+@app.route('/A')
+def personA():
+    return render_template('personA.html')
+
+@app.route('/B')
+def personB():
+    return render_template('personB.html')
+
+@app.route('/C')
+def personC():
+    return render_template('personC.html')
 
 # This code just runs the app when the command
 # python3 app.py is given. It turns on the debugger
