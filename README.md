@@ -1,8 +1,22 @@
-A minimal prototype for a Flask-based website.
+# A minimal prototype for a Flask-based website.
 
 Requires [python3](https://www.python.org/) and [Flask](http://flask.pocoo.org/).
 
-To run from a shell use `python3 path/to/app.py` and navigate to `http://localhost:5000` in a browser.
+To install Flask on an internet-connected raspbian, open a terminal (black icon, upper left of the desktop) and type
+
+```
+pi@somekindofpi> sudo apt-get install python3-flask
+```
+
+Much verbiage will follow. Wait until the prompt, here `pi@somekindofpi>`, returns.
+
+Download the code in this repository by using the green "Clone or Download" button to the right (and maybe up a bit) over here =>
+
+Or just click [this link](https://github.com/WilCrofter/rpigrp_www/archive/master.zip).
+
+When the download finishes find the master.zip file, and extract it by clicking right and selecting "extract here" from the menu. Suppose you extract it to your Desktop. A folder named `rpigrp_www` should then appear on your desktop.
+
+To run, open a terminal (black icon) and type `python3 Desktop/rpigrp_www/app.py`. Notification that the webserver has started should appear in the  terminal. Now open a browser and navigate to `http://localhost:5000`. Except for `app.py` itself, you can change any of the files in `rpigrp_www` without restarting the server. `
 
 As a first prototype it is meant to be improved and adapted. Images were designed and can be modified with [Inkscape](https://inkscape.org.) Python, HTML, and CSS can be modified with any decent code editor.
 
