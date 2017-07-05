@@ -3,7 +3,7 @@
    background color, font size,...
 */
 body {
-    background: lavenderblush;
+    background: azure;
     font-size: 18px;
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ body {
    the static directory.)
 */
 div.header {
-    background: url(dots.svg) repeat-x center top;
+    background: url(waves.svg) repeat-x center top;
     height: 285px;
 }
 
@@ -36,7 +36,7 @@ div.header ul.navigation {
     padding: 0;
     list-style: none;
     line-height: 1;
-    background: magenta;
+    background: green;
 }
 
 /* The next two blocks specify the position of the 
@@ -60,7 +60,7 @@ div.header ul.navigation li a {
     border-right-width: 14px;
     line-height: 28px!important;
     height: 28px!important;
-    color: lavenderblush;
+    color: white;
     font-weight: bold;
     text-decoration: none;
     letter-spacing: 0.5px;
@@ -78,11 +78,11 @@ div.banner {
 }
 
 div.banner div.logo {
-    background: url(raspberry.svg) no-repeat;
+    background: url(chlo.svg) no-repeat;
     height: 220px;
     margin: auto;
-    width: 600px;
-    height: 190px;
+    width: 660px;
+    height: 220px;
 }
 
 
@@ -93,10 +93,10 @@ div.banner div.logo {
 */
 
 h1, h2, h3, h4, h5 {
-    color: purple;
+    color: blue;
     padding: 3px 10px 0 10px;
-    border-bottom: 1px dotted magenta;
-    text-shadow: 2px 2px 1px magenta;
+    border-bottom: 1px dotted limegreen;
+    text-shadow: 2px 2px 1px limegreen;
     margin: 25px -20px 20px -20px;
 
 }
@@ -110,7 +110,7 @@ div.body {
     margin: 0 auto;
     padding: 10px 0;
     width: 700px;
-    background: lavenderblush;
+    background: azure;
 }
 
 
