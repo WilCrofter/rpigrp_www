@@ -14,7 +14,8 @@ Git is a version control system.
 
 ### What is Github?
 
-Watch minutes 1:30 thru 7:30 of [The New Developer](https://www.youtube.com/watch?v=0A-u1tQTBqo) 
+Watch minutes 1:30 thru 7:30 of [The New Developer](https://www.youtube.com/watch?v=0A-u1tQTBqo)
+
 Watch the 4 minute [What is Github video](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 
 1. Github is the largest, most active, online host of git based projects. Examples include:
@@ -25,7 +26,7 @@ Watch the 4 minute [What is Github video](https://www.youtube.com/watch?v=w3jLJU
 	* [Python](https://github.com/python)
 	* [Flask](https://github.com/pallets/flask)
 	* [Bounce](https://github.com/WilCrofter/bounce)
-2. Github is free for open source projects like those above. ($7/month for private projects.)
+2. Github is free for open source projects like those above.
 3. Github supports
     * Issue pages to coordinate plans, answer questions, point out problems.
 	* Wiki pages for documentation, how-tos, pictures.
@@ -45,7 +46,7 @@ Watch the 4 minute [What is Github video](https://www.youtube.com/watch?v=w3jLJU
 3. Get a free GitHub account and add your *public* key to it: 
     * Copy and paste the stuff in `.ssh/id_rsa.pub` to your settings page at GitHub.
 4. Accept an invitation to collaborate in the "rpigrp_www" project.
-5. Clone Webdev-in-a-Week to your rPi: 
+5. Clone rpigrp_www to your rPi: 
     * `git clone git@github.com:WilCrofter/rpigrp_www.git`
 7. Create a personal branch in your clone of rpigrp and push it to GitHub
     * `git -b checkout <name of your branch>`
