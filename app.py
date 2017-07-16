@@ -31,6 +31,10 @@ def index():
 def team():
     return render_template('team.html')
 
+@app.route('/ginapage')
+def gina():
+    return render_template('ginapage.html')
+
 @app.route('/projects')
 def projects():
     return render_template('projects.html')
@@ -38,6 +42,10 @@ def projects():
 @app.route('/colors')
 def colors():
     return render_template('colors.html')
+
+@app.route('/resources')
+def resources():
+    return render_template('resources.html')
 
 # This code just runs the app when the command
 # python3 app.py is given. It turns on the debugger
