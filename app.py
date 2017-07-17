@@ -1,3 +1,6 @@
+#! /usr/bin/env python3
+
+
 # Recall from the Flask tutorial that to run this
 # application you should:
 # 1. Open a terminal in this directory
